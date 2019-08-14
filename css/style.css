@@ -1,3 +1,8 @@
 *{
   font-family: 'Quicksand', sans-serif;
 }
+
+.contained{
+  float: left;
+  margin-left: 25%;
+}
