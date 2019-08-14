@@ -3,8 +3,34 @@
   <head>
     <meta charset="utf-8">
     <title>Akan Name Generator</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
   </head>
   <body>
-
+    <div class="container">
+      <h1>Generate your Akan name!</h1>
+      <form class="myform" action="index.html" method="post" action="https://facebook.com">
+        <label for="year-of-birth">
+          Year:
+          <input type="text" name="year-of-birth" placeholder="YYYY">
+        </label>
+        <label for="month-of-birth">
+          Month:
+          <input type="text" name="month-of-birth" placeholder="MM">
+        </label>
+        <label for="day-of-birth">
+          Day:
+          <input type="text" name="day-of-birth" placeholder="DD">
+        </label>
+        <br><br>
+        <label for="select-gender">
+          Male:
+          <input type="radio" name="select-gender">
+          Female:
+          <input type="radio" name="select-gender">
+        </label>
+        <br><br>
+        <input type="submit" name="" value="Generate name">
+      </form>
+    </div>
   </body>
 </html>
