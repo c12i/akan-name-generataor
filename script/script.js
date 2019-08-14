@@ -3,7 +3,7 @@ let monthOfBirth = parseInt(prompt("Enter your month of birth: "));
 let dayOfBirth = parseInt(prompt("Enter your day of birth"));
 let gender = prompt("Are you male or female");
 
-const getDayOfWeekMale = (yearOfBirth, monthOfBirth, dayOfBirth) =>{
+const getDayOfWeekMale = function (yearOfBirth, monthOfBirth, dayOfBirth) {
   let dayOfWeekNumber = Math.round((((parseInt(yearOfBirth.slice(0,2))/4)-2*parseInt(yearOfBirth.slice(0,2))-1)+((5*parseInt(yearOfBirth.slice(2,4))/4))+((26*(monthOfBirth+1)/10))+dayOfBirth)%7);
   if (dayOfWeekNumber === 1) {
     alert("Sunday: Kwasi")
@@ -22,7 +22,7 @@ const getDayOfWeekMale = (yearOfBirth, monthOfBirth, dayOfBirth) =>{
   }
 }
 
-const getDayOfWeekFemale = (yearOfBirth, monthOfBirth, dayOfBirth) =>{
+const getDayOfWeekFemale = function (yearOfBirth, monthOfBirth, dayOfBirth) {
   let dayOfWeekNumber = Math.round((((parseInt(yearOfBirth.slice(0,2))/4)-2*parseInt(yearOfBirth.slice(0,2))-1)+((5*parseInt(yearOfBirth.slice(2,4))/4))+((26*(monthOfBirth+1)/10))+dayOfBirth)%7);
   if (dayOfWeekNumber === 1) {
     alert("Sunday: Akosua")
