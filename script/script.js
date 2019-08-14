@@ -46,5 +46,5 @@ if (gender.toLowerCase() == "male") {
 } else if (gender.toLowerCase() == "female") {
   getDayOfWeekFemale(yearOfBirth, monthOfBirth, dayOfBirth);
 } else {
-  alert("Invalid gender");
+  alert("Invalid data");
 }
