@@ -33,3 +33,12 @@ h1{
   margin-right: 20%;
   margin-top: 10px;
 }
+
+.research{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: #006B3F;
+}
