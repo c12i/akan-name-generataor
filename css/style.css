@@ -1,7 +1,35 @@
-*{
+body{
   font-family: 'Quicksand', sans-serif;
+  background-image: url('https://wallpapercave.com/wp/wp2010948.jpg');
+  color: white;
+  font-size: 17px;
+}
+
+h1{
+  font-size: 36px;
+  padding-top: 20px;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
 }
 
 #get-name{
   border-radius: 5px;
+  color: #000000;
+  background-color: #FCD116;
+  text-align: center;
+}
+
+#result{
+  text-align: center;
+}
+
+.content{
+  background-color: rgba(206, 17, 38, 0.72);
+  height: 465px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10px;
 }
