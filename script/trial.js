@@ -8,6 +8,7 @@ let submitButton = document.querySelector("#get-name");
 // creating functions that generate Akan names based on form values\
 const getDayOfWeekMale = function (yearOfBirth, monthOfBirth, dayOfBirth) {
   let dayOfWeekNumber = Math.round((((parseInt(yearOfBirth.slice(0,2))/4)-2*parseInt(yearOfBirth.slice(0,2))-1)+((5*parseInt(yearOfBirth.slice(2,4))/4))+((26*(monthOfBirth+1)/10))+dayOfBirth)%7);
+  console.log(dayOfWeekNumber);
   if (dayOfWeekNumber === 1) {
     alert("Sunday: Kwasi")
   } else if (dayOfWeekNumber === 2) {
@@ -29,6 +30,7 @@ const getDayOfWeekMale = function (yearOfBirth, monthOfBirth, dayOfBirth) {
 
 const getDayOfWeekFemale = function (yearOfBirth, monthOfBirth, dayOfBirth) {
   let dayOfWeekNumber = Math.round((((parseInt(yearOfBirth.slice(0,2))/4)-2*parseInt(yearOfBirth.slice(0,2))-1)+((5*parseInt(yearOfBirth.slice(2,4))/4))+((26*(monthOfBirth+1)/10))+dayOfBirth)%7);
+  console.log(dayOfWeekNumber);
   if (dayOfWeekNumber === 1) {
     alert("Sunday: Akosua")
   } else if (dayOfWeekNumber === 2) {
