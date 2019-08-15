@@ -2,11 +2,6 @@
   font-family: 'Quicksand', sans-serif;
 }
 
-.contained{
-  float: left;
-  margin-left: 30%;
-}
-
 #get-name{
   border-radius: 5px;
 }
