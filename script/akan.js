@@ -94,7 +94,7 @@ function getAkanName () {
         alert("Kwadwo");
         break;
       case 3:
-        document.getElementById('result').innerHTML = "You were born on a Monday: your Akan name is " + femaleAkanNames[2];
+        document.getElementById('result').innerHTML = "You were born on a Tuesday: your Akan name is " + femaleAkanNames[2];
         return false;
         break;
       case 4:
