@@ -63,7 +63,6 @@ function getAkanName () {
   if (myGenderValue == "male" && monthValid && dayValid){
     switch (dayOfWeekNumber) {
       case 1:
-        // document.getElementById('result').style.border = "inset 8px";
         document.getElementById('result').innerHTML = "You were born on a Sunday: your Akan name is " + maleAkanNames[0];
         return false;
         break;
