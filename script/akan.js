@@ -38,11 +38,11 @@ function getAkanName () {
   //creating arrays of Akan names for males and females
   let maleAkanNames = [
     "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Kwaku", "Yaw", "Kofi", "Kwame"
-  ]
+  ];
 
   let femaleAkanNames = [
     "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"
-  ]
+  ];
 
   //condition statement that validates input
   if (gender === "male" && yearOfBirth !== " " && yearOfBirth != null && monthOfBirth !== " " && monthOfBirth != null && dayOfBirth !== " " && dayOfBirth != null && monthValid == true && dayValid == true){
