@@ -80,6 +80,10 @@ function getAkanName () {
         document.getElementById('result').innerHTML = "You were born on a Saturday: your Akan name is " + maleAkanNames[6];
         return false;
         break;
+      case 0:
+        document.getElementById('result').innerHTML = "You were born on a Sunday: your Akan name is " + maleAkanNames[0];
+        return false;
+        break;
       default:
         alert("mmh no Akan name for you");
 
@@ -115,9 +119,11 @@ function getAkanName () {
         document.getElementById('result').innerHTML = "You were born on a Saturday: your Akan name is " + femaleAkanNames[6];
         return false;
         break;
+      case 0:
+        document.getElementById('result').innerHTML = "You were born on a Sunday: your Akan name is " + femaleAkanNames[0];
+        return false;
+        break;
       default:
-        document.getElementById('result').style.color = "#FCD116";
-        document.getElementById('result').innerHTML = "Oops, check your inputs";
         alert("mmh no Akan name for you");
       }
     } else{
