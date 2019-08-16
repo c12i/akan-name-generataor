@@ -3,7 +3,19 @@ function getAkanName () {
   let yearOfBirth = document.getElementById("year-input").value;
   let monthOfBirth = Number(document.getElementById("month-input").value);
   let dayOfBirth = Number(document.getElementById("day-input").value);
-  let gender = document.getElementById("gender-input").value;
+  // let gender = document.getElementById("gender-input").value;
+
+  let genders = document.getElementsByName("gender");
+  let i = 0;
+
+  while(i<genders.length){
+    if(genders[i].checked){
+      var myGenderValue = genders[i].value;
+      i++;
+    }
+
+  }
+  console.log(myGenderValue);
 
   // validation functions
   function monthValidator () {
@@ -37,7 +49,8 @@ function getAkanName () {
   let dayValid = dayValidator();
 
   //formula to determine day of birth (Sunday = 1, Monday = 2)etc..
-  let dayOfWeekNumber = Math.round((((Number(yearOfBirth.slice(0,2))/4)-2*Number(yearOfBirth.slice(0,2))-1)+((5*Number(yearOfBirth.slice(2,4))/4))+((26*(monthOfBirth+1)/10))+dayOfBirth)%7);
+  let dayOfWeekNumber = Math.round((((Number(yearOfBirth.slice(0,2))/4)-2*Number(yearOfBirth.slice(0,2))-1)+
+          ((5*Number(yearOfBirth.slice(2,4))/4))+((26*(monthOfBirth+1)/10))+dayOfBirth)%7);
 
   //creating arrays of Akan names for males and females
   let maleAkanNames = [
@@ -49,7 +62,7 @@ function getAkanName () {
   ];
 
   //condition statement that validates input
-  if (gender.toLowerCase() === "male" && yearOfBirth !== " " && yearOfBirth != null && monthOfBirth !== " " && monthOfBirth != null && dayOfBirth !== " " && dayOfBirth != null && monthValid == true && dayValid == true){
+  if (myGenderValue == "male" && monthValid && dayValid){
     switch (dayOfWeekNumber) {
       case 1:
         // document.getElementById('result').style.border = "inset 8px";
@@ -88,7 +101,7 @@ function getAkanName () {
         alert("mmh no Akan name for you");
 
     }
-  } else if(gender.toLowerCase() === "female" && yearOfBirth !== " " && yearOfBirth != null && monthOfBirth !== " " && monthOfBirth != null && dayOfBirth !== " " && dayOfBirth != null && monthValid == true && dayValid == true) {
+  } else if(myGenderValue == "female" && monthValid && dayValid) {
     switch (dayOfWeekNumber) {
       case 1:
         document.getElementById('result').innerHTML = "You were born on a Sunday: your Akan name is " + femaleAkanNames[0];
@@ -130,3 +143,8 @@ function getAkanName () {
       alert("You entered invalid or no month or day");
     }
   }
+
+
+// function () {
+//   window.location.reload();
+// }

@@ -20,13 +20,6 @@ h1{
   color: #000000;
   background-color: #FCD116;
   text-align: center;
-}
-
-#result{
-  text-align: center;
-}
-
-#get-name{
   border: solid 1px #000000;
   width: 108px;
   height: 32px;
@@ -34,9 +27,17 @@ h1{
   box-shadow: 2px 2px #000000;
 }
 
+#result{
+  text-align: center;
+}
+
+#get-name{
+
+}
+
 .content{
   background-color: rgba(206, 17, 38, 0.72);
-  height: 500px;
+  height: 600px;
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 10px;
@@ -45,8 +46,20 @@ h1{
 }
 
 .research{
-  text-decoration: none;
+  text-decoration: underline;
   color: white;
+}
+
+.clear{
+  border-radius: 5px;
+  color: #000000;
+  background-color: #FCD116;
+  text-align: center;
+  border: solid 1px #000000;
+  width: 108px;
+  height: 32px;
+  font-size: 13px;
+  box-shadow: 2px 2px #000000;
 }
 
 a:hover{
