@@ -26,6 +26,14 @@ h1{
   text-align: center;
 }
 
+#get-name{
+  border: solid 1px #000000;
+  width: 108px;
+  height: 32px;
+  font-size: 13px;
+  box-shadow: 2px 2px #000000
+}
+
 .content{
   background-color: rgba(206, 17, 38, 0.72);
   height: 500px;
