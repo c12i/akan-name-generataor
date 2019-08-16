@@ -20,6 +20,8 @@ function getAkanName () {
         return false;
       } else if (monthOfBirth === 2 && dayOfBirth > 29) {
         return false;
+      } else if (monthOfBirth === 2 && dayOfBirth < 1) {
+        return false;
       } else {
         return true;
       }
@@ -47,7 +49,7 @@ function getAkanName () {
   ];
 
   //condition statement that validates input
-  if (gender === "male" && yearOfBirth !== " " && yearOfBirth != null && monthOfBirth !== " " && monthOfBirth != null && dayOfBirth !== " " && dayOfBirth != null && monthValid == true && dayValid == true){
+  if (gender.toLowerCase() === "male" && yearOfBirth !== " " && yearOfBirth != null && monthOfBirth !== " " && monthOfBirth != null && dayOfBirth !== " " && dayOfBirth != null && monthValid == true && dayValid == true){
     switch (dayOfWeekNumber) {
       case 1:
         // document.getElementById('result').style.border = "inset 8px";
@@ -79,12 +81,10 @@ function getAkanName () {
         return false;
         break;
       default:
-        document.getElementById('result').style.color = "#FCD116";
-        document.getElementById('result').innerHTML = "Oops, check your inputs";
-        alert("mmh");
+        alert("mmh no Akan name for you");
 
     }
-  } else if(gender === "female" && yearOfBirth !== " " && yearOfBirth != null && monthOfBirth !== " " && monthOfBirth != null && dayOfBirth !== " " && dayOfBirth != null && monthValid == true && dayValid == true) {
+  } else if(gender.toLowerCase() === "female" && yearOfBirth !== " " && yearOfBirth != null && monthOfBirth !== " " && monthOfBirth != null && dayOfBirth !== " " && dayOfBirth != null && monthValid == true && dayValid == true) {
     switch (dayOfWeekNumber) {
       case 1:
         document.getElementById('result').innerHTML = "You were born on a Sunday: your Akan name is " + femaleAkanNames[0];
@@ -118,9 +118,9 @@ function getAkanName () {
       default:
         document.getElementById('result').style.color = "#FCD116";
         document.getElementById('result').innerHTML = "Oops, check your inputs";
-        alert("mmh");
+        alert("mmh no Akan name for you");
       }
-    } else {
+    } else{
       alert("You entered invalid month or day");
     }
   }
