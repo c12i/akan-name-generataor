@@ -9,11 +9,9 @@ function getAkanName () {
   let i = 0;
 
   while(i<genders.length){
-    if(genders[i].checked){
-      var myGenderValue = genders[i].value;
-      i++;
-    }
-
+    if(genders[i].checked)
+        var myGenderValue = genders[i].value;
+    i++
   }
   console.log(myGenderValue);
 
