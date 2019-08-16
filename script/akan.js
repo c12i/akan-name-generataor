@@ -127,6 +127,6 @@ function getAkanName () {
         alert("mmh no Akan name for you");
       }
     } else{
-      alert("You entered invalid month or day");
+      alert("You entered invalid or no month or day");
     }
   }
