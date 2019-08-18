@@ -15,6 +15,27 @@ h1{
   margin: auto;
 }
 
+#year-input{
+  border-radius: 5px;
+  width: 60px;
+  height: 20px;
+  box-shadow: 2px 2px #000000;
+}
+
+#month-input{
+  border-radius: 5px;
+  width: 60px;
+  height: 20px;
+  box-shadow: 2px 2px #000000;
+}
+
+#day-input{
+  border-radius: 5px;
+  width: 60px;
+  height: 20px;
+  box-shadow: 2px 2px #000000;
+}
+
 #get-name{
   border-radius: 5px;
   color: #000000;
@@ -31,13 +52,9 @@ h1{
   text-align: center;
 }
 
-#get-name{
-
-}
-
 .content{
   background-color: rgba(206, 17, 38, 0.72);
-  height: 600px;
+  height: 650px;
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 10px;
