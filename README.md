@@ -3,13 +3,17 @@
 ![alt text](images/app.jpg)
 
 ![alt text](images/result.jpg)
+
 ## Author
 Collins Muriuki
+
 ## Versioning
-Akan name generator version 1.1
+Akan name generator V1.1
+
 ## Description
 Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names. This app takes a user's birthday on the form provided and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
 This app will take in a user's year of birth, month of birth, day of birth and select gender. Using a formula assigned to a variable in the akan.js file (dayOfWeekNumber), it will be possible to determine the exact day of the week the user was born and give them an Akan name based on their gender.
+
 ## Features
 Here are the features in summary:
 * Input of year of birth.
@@ -18,6 +22,10 @@ Here are the features in summary:
 * Select Gender.
 * Output Akan name.
 
+## Behaviour Driven Development (BDD)
+|Behaviour 	           |    Input 	                 |       Output          |
+|----------------------------------------------|:-----------------------------------:|-----------------------------:|       
+|Page loads and  a form displayed                         |   User enters form details  and selects from the select radios   and clicks submit                   |Their Akan name is displayed     |  
 
 ## Installation and Set-up
 To view the app, open the Github Pages link provided below on the README.
@@ -38,10 +46,12 @@ Here is a run through of how to set up the application
 * Javascript
 
 ## Support and contact details
-Provide feedback on any bugs if present at murerwacollins@gmail.com
+You can provide feedback or raise any issues/ bugs through the following means:
+* murerwacollins@gmail.com
+* Slack me (Moringa-School)  @badman 
 
 ## Github Pages link
-https://collinsmuriuki.github.io/akan-name-generataor/
+You can view the live application by following this link https://collinsmuriuki.github.io/akan-name-generataor/
 
 ## License
 #### *MIT License*
