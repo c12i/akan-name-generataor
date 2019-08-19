@@ -66,7 +66,14 @@ function getAkanName () {
   ];
 
   //generating and index value to select items on arrays
-  let index = Math.abs(dayOfWeekNumber);
+  let index;
+  // fix formula bug
+  if (dayOfWeekNumber == 0){
+    index = 6;
+  } else {
+    index = dayOfWeekNumber - 1;
+  }
+
   console.log(index);
 
   if (myGenderValue == "male" && monthValid && dayValid) {
