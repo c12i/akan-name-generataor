@@ -1,5 +1,6 @@
 # Akan name generator
 #### Simple web app that generates an Akan name based on the date of birth and gender by determining the day one was born, 14/8/2019
+[](images/app.jpg)
 ## Author
 Collins Muriuki
 ## Versioning
@@ -14,6 +15,8 @@ Here are the features in summary:
 * Input day of birth.
 * Select Gender.
 * Output Akan name.
+
+
 ## Installation and Set-up
 To view the app, open the Github Pages link provided below on the README.
 Here is a run through of how to set up the application
@@ -21,7 +24,7 @@ Here is a run through of how to set up the application
 * Step 2 : The repository, if downloaded as a .zip file will need to be extracted o your preferred location and opened
 * Step 3 : Open the index.html file to view the application on your preferred web browser
 ## Known Bugs
-* Formula provided to determine day of birth shows inconsistency in its results
+* Formula provided to determine day of birth shows inconsistency in its results (Bug fixed)
 ## Technologies Used
 * HTML  
 * CSS
