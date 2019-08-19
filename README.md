@@ -48,7 +48,7 @@ Here is a run through of how to set up the application
 ## Support and contact details
 You can provide feedback or raise any issues/ bugs through the following means:
 * murerwacollins@gmail.com
-* Slack me (Moringa-School)  @badman 
+* Slack me (Moringa-School)  @CM Collins Muriuki 
 
 ## Github Pages link
 You can view the live application by following this link https://collinsmuriuki.github.io/akan-name-generataor/
