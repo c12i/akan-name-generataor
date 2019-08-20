@@ -22,10 +22,6 @@ Here are the features in summary:
 * Select Gender.
 * Output Akan name.
 
-## Behaviour Driven Development (BDD)
-|Behaviour 	           |    Input 	                 |       Output          |
-|----------------------------------------------|:-----------------------------------:|-----------------------------:|       
-|Page loads and  a form displayed                         |   User enters form details  and selects from the select radios   and clicks submit                   |Their Akan name is displayed     |  
 
 ## Installation and Set-up
 To view the app, open the Github Pages link provided below on the README.
@@ -35,11 +31,7 @@ Here is a run through of how to set up the application
 * Step 3 : Open the index.html file to view the application on your preferred web browser
 
 ## Known Bugs
-* Formula provided to determine day of birth shows inconsistency in its results (Bug fixed as of version 1.1)
-
-## Fixed bugs
-* Fixed bug where the index value was negative
-
+* Formula provided to determine day of birth shows inconsistency in its results (Bug fixed)
 ## Technologies Used
 * HTML  
 * CSS
@@ -54,5 +46,24 @@ You can provide feedback or raise any issues/ bugs through the following means:
 You can view the live application by following this link https://collinsmuriuki.github.io/akan-name-generataor/
 
 ## License
-#### [*MIT License*](https://img.shields.io/badge/License-MIT-yellow.svg)
+#### *MIT License*
+The MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
 Copyright (c) 2019 **Collins Muriuki**
